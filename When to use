@@ -1,0 +1,16 @@
+When to use the strategy pattern?
+When you want to define a class that will have one behaviour that is similar to other behaviours in the list
+
+e.g.
+I want the class object to be able to choose from
+	Not Flying
+	Fly with Wings
+	fly Super Fast
+
+When you want to use one of several behaviours dynamically.
+
+Often reduces long list of conditionals
+Avoids duplicate code
+Keeps class changes from forcing other class changes
+Can hide complicated/secret code from the user
+Negative : Increased number of Objects/Classes
